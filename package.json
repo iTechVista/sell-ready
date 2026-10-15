@@ -1,0 +1,16 @@
+{
+  "name": "sell-ready",
+  "version": "1.0.0",
+  "description": "Check a project folder is ready to sell or share: no secrets, no node_modules or .git, a README and a licence.",
+  "type": "module",
+  "bin": { "sell-ready": "bin/sell-ready.mjs" },
+  "exports": "./src/check.mjs",
+  "files": ["bin", "src"],
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=18" },
+  "keywords": ["sell code", "source code", "secrets", "pre-release", "checklist", "cli"],
+  "author": "iTechVista",
+  "license": "MIT",
+  "homepage": "https://code.itechvista.com",
+  "repository": { "type": "git", "url": "https://github.com/iTechVista/sell-ready.git" }
+}
